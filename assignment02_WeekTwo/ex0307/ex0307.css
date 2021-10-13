@@ -1,0 +1,21 @@
+.outlist1 {
+    background-color:green;
+    list-style-type:upper-roman;
+}
+
+.outlist2 {
+    background-color:blue;
+    list-style-type:upper-roman;
+}
+
+.outlist3 {
+    background-color:red;
+    list-style-type:upper-roman;
+}
+
+.midlist {
+    list-style-type:upper-alpha;
+}
+.innerlist {
+    list-style-type:decimal;
+}
