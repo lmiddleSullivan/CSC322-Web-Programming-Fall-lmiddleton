@@ -52,3 +52,12 @@ p1 {
 .vertical-menu a:hover {
   background-color: #ccc;
 }
+
+a:link, a:visited {
+	color: white;
+	padding: 15px 25px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+  }
+  
