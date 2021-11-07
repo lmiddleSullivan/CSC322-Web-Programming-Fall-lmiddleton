@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>
+        Assignment 5.2 - Exercise 4.3
+    </title>
+
+    <meta charset="utf-8">
+
+    <script type="text/javaScript" scr="maximum.js">
+
+function largest(f1)
+{
+
+var a,b,c;
+        
+    a=parseInt(prompt("Enter value of a : "));
+    b=parseInt(prompt("Enter value of b : "));
+        c=parseInt(prompt("Enter value of c : "));
+        
+    if(a>b && a>c)
+        {
+        
+    document.getElementById("max").innerHTML="a is the largest number among three & has value "+a;
+        }
+    else if(b>a && b>c)
+        {
+        
+    document.getElementById("max").innerHTML="b is the largest number among three & has value "+b;
+        }
+    else
+        {
+    document.getElementById("max").innerHTML="c is the largest number among three & has value "+c;
+    }
+}
+    </script>
+
+</head>
+
+<body>
+    <form name="f1">
+        <input type="button" value="Enter three numbers: " onclick="largest(f1)">
+    </form>
+    <h1 id="max"></h1>
+</body>
+
+</html>
