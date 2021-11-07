@@ -1,0 +1,18 @@
+body {
+    margin: auto;
+    background-color: grey;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: medium;
+}
+
+h1 {
+    text-align: center;
+}
+
+
+var {
+    color: red;
+    font-weight: bold;
+}
